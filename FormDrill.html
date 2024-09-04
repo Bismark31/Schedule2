@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Elements</title>
+    <style>
+        body{
+            background-color: lightblue;
+        }
+        tr, td{
+            border: 2px solid gray;
+            width: 200px;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1> Form Elements</h1>
+    </header>
+    <hr>
+
+    <form>
+        <table>
+            <thead>
+                <tbody>
+                    <!-- First ROW -->
+                    <tr>
+                        <td><label> First Name </label></td>
+                        <td><input type = "text" id = "fname name"
+                               value = "Enter Your Name"></td>
+                    </tr>
+                    <!-- SECOND ROW -->
+                     </thead>
+                     <tr>
+                        <td><label> Last Name </label></td>
+                        <td><input type = "text" id = "lname name" name=" lname"
+                               value = "Enter Your Last Name"></td>   
+                     </tr>
+                     <tr>
+                         <td colspan = "2"> FEEDBACK</td>
+                     </tr>
+                     <tr>
+                        <td colspan = "2"><textarea name="message" rows="8" cols="60">
+                        </textarea> </td>
+                     </tr>
+                     <tr>
+                        <td><button type = "submit"> Submit</button></td>
+                        <td><button type = "reset">  Reset</button></td>
+                     </tr>
+                            
+                </tbody>
+              </table>
+        </form>
+    
+</body>
+</html>
